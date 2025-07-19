@@ -4,7 +4,6 @@
 This repository contains our complete solution for **Assignment # 04: Explainability**.  
 All four tasks (Network Dissection, Grad‑CAM variants, LIME, and the comparison study) are implemented and documented here, along with the required reports and the parameter pickle for the leaderboard submission.
 
----
 
 ## Repository layout
 
@@ -19,5 +18,4 @@ All four tasks (Network Dissection, Grad‑CAM variants, LIME, and the compa
 | **`tml-assignment-04-task-2.ipynb`** | Notebook | Implementation of **Task 2**: applies Grad‑CAM, AblationCAM, and ScoreCAM on each ImageNet image using `torchcam`/`grad-cam` library; saves heat‑maps for the report. |
 | **`tml-assignment-04-task-3.ipynb`** | Notebook | Implementation of **Task 3**: prepares images, runs LIME with the tuned parameters, computes IoU versus Grad‑CAM masks, saves overlays, and serialises `final_lime_params.pkl`. |
 
-
----
+Release Tag: https://github.com/abaadm1/TML25_A4_22/releases/tag/v1.0.0
